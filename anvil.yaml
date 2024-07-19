@@ -1,5 +1,5 @@
 allow_embedding: false
-package_name: Dashboard_Template_B
+package_name: PINN_GUI
 db_schema:
   files:
     title: Files
@@ -49,7 +49,7 @@ db_schema:
       admin_ui: {width: 200}
       type: simpleObject
 startup: {type: form, module: Frame}
-name: Dashboard Template B
+name: PINN_GUI
 startup_form: null
 native_deps: {head_html: ''}
 correct_dependency_ids: {}
