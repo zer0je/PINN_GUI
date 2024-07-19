@@ -1,0 +1,21 @@
+is_package: true
+container: {type: DataRowPanel}
+components:
+- type: Label
+  properties: {}
+  name: label_1
+  layout_properties: {column: QUILGF}
+  data_bindings:
+  - {property: text, code: 'self.item[''author''][''name'']'}
+- type: Label
+  properties: {}
+  name: label_2
+  layout_properties: {column: PXEUIT}
+  data_bindings:
+  - {property: text, code: 'self.item[''created''].strftime("%m/%d/%Y")'}
+- type: Label
+  properties: {}
+  name: label_3
+  layout_properties: {column: MBVWAH}
+  data_bindings:
+  - {property: text, code: 'self.item[''filename'']'}
